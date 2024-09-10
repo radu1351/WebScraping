@@ -9,7 +9,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class HuggingFaceClient {
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "";
     private static final String API_URL = "https://api-inference.huggingface.co/models/microsoft/Phi-3.5-MoE-instruct";
 
     public static String prompt(String prompt) {
